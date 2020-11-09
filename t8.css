@@ -10,7 +10,7 @@ body{
 
 #logo{
     margin-left: 32%;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .topnav {
    /* float: right;
@@ -175,7 +175,7 @@ margin: auto;  }
  }
  #flogo{
 position: absolute;
-margin-top: -140px; 
+margin-top: -120px; 
 margin-left: 35%;}
 .fa-twitter:hover{
    color: rgb(94, 142, 247);
@@ -233,5 +233,4 @@ h3{
     font-size: 20px;
 }
 fa-toggle-on:hover{
-    color: white;
-}
+    color: white;}
