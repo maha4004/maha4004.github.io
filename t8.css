@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo');
+body{
+  /* background-color:  #cec2b2;*/
+  background-color: #333;
+   font-family:Cairo;
+  width: 100%;
+  height: 100%;
+}
+
+
+#logo{
+    margin-left: 32%;
+    margin-top: 10%;
+}
+.topnav {
+   /* float: right;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #cec2b2;
+    text-align: center;
+    
+    top: 0;
+    position: fixed;*/
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 15%;
+
+}
+
+.topnav a{
+   /* padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Cairo;
+    display: block;*/
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Cairo;
+    font-size: 17px;
+    margin-top: 7px;
+   
+}
+h1{
+    text-align: center;
+    color: rgb(248, 248, 248);
+}
+td{
+    color: rgb(248, 248, 248);
+}
+div.brief{
+    margin-top: 20px;
+    width: 55%;
+    height: 23%;
+    background-image: url('tbg.png');
+    opacity: 0.5;
+    margin: auto;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+
+div.beiefP p{
+    color: rgb(248, 248, 248);
+opacity: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+
+#search{
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    width: 50%;
+    height: 20%;
+   text-align: center;
+   font-size: 15px;
+   font-weight: 500;
+    text-align: right; 
+}
+#firstImg{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+}
+#secondImg{
+    width: 370px;
+    height: 250px;
+    border-radius: 20px;
+}
+.grid-container {
+    width: 60%;
+    margin: auto;
+    padding-left: 2px;
+    padding-top: 10px;
+    
+  }
+  .grid-container img{
+    width: 80%;
+    height: 40%;
+    border-radius: 20px;
+    text-align: center;
+margin: auto;  }
+  a #aFirst{
+      margin-right: 300px;
+  }
+
+
+/*i{
+      position: absolute;
+      margin-left: 10px;
+      margin-top: 5px;
+  }*/
+
+  .parent .child{
+      visibility: hidden;
+      background-color: rgba(78, 77, 76, 0.959);
+      width: 80.3%;
+      height: 85.5%;
+      margin-top: -261.4px;
+    margin-left: -382px;
+      position: absolute;
+      border-radius: 20px;
+      color: #fff;
+      text-align: center;
+      transition: 0.5 ;
+
+  }
+ 
+  .parent:hover .child{
+      visibility: visible;
+
+  }
+ #row:after{
+     display: table;
+     text-align: center;
+    
+    
+    
+ }
+ .col{
+    float: left;
+    width: 33.33%;
+    height: 300px;
+    border: cornsilk;
+
+     /* Should be removed. Only for demonstration */
+  }
+ #footer{
+    background-color: #404040;
+    height: 400px;
+    color: #fff;
+    margin-top: 30px;
+    background-image: url('tape1.png');
+    background-repeat: repeat-y;
+    border-top: 4px dotted none;
+
+ }
+ table{
+     margin-top: 20px;
+ }
+ i{
+    float: right;
+    padding-right: 60px;
+ }
+ #flogo{
+position: absolute;
+margin-top: -120px; 
+margin-left: 35%;}
+.fa-twitter:hover{
+   color: rgb(94, 142, 247);
+  
+}
+h3{
+    animation: changeColor 4s infinite;
+}
+@keyframes changeColor{
+    0%{color:  rgb(190, 40, 40)}
+    25%{color: rgb(226, 223, 17)}
+    75%{color: rgb(190, 40, 40)}
+    100%{color: rgb(226, 223, 17)}
+}
+#div1{
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    background-color: rgb(14, 13, 1);
+    color: #fff;
+    text-align: center;
+  margin-left: 30%;
+  margin-top: -20%;
+    border-radius: 30px;
+    border-color: white;
+}
+
+#div1 img{
+    width: 40%;
+    height: 50%;
+}
+.gallery{
+    margin: 20px;
+    
+}
+.title{
+    color:#fff;
+    font-family: Cairo;
+    font-size: 17px;
+    text-align: center;
+}
+.fa-instagram:hover{
+    color: rgb(190, 40, 40);
+}
+
+.fa-facebook:hover{
+    color: rgb(40, 40, 214);
+}
+.fa-youtube:hover{
+    color: red;
+}
+
+.aMenu:hover{
+    color: rgb(190, 40, 40);
+    font-size: 20px;
+}
