@@ -232,3 +232,6 @@ h3{
     color: rgb(190, 40, 40);
     font-size: 20px;
 }
+fa-toggle-on:hover{
+    color: white;
+}
