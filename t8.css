@@ -164,6 +164,7 @@ margin: auto;  }
     background-image: url('tape1.png');
     background-repeat: repeat-y;
     border-top: 4px dotted none;
+    background-size: 100% 100%;
 
  }
  table{
