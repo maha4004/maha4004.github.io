@@ -9,8 +9,8 @@ body{
 
 
 #logo{
-    margin-left: 32%;
-    margin-top: 8%;
+    margin: auto;
+    display: block;
 }
 .topnav {
    /* float: right;
