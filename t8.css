@@ -191,7 +191,7 @@ h3{
     100%{color: rgb(226, 223, 17)}
 }
 #div1{
-    position: absolute;
+    position: relative;
     width: 40%;
     height: 40%;
     background-color: rgb(14, 13, 1);
@@ -230,7 +230,9 @@ h3{
 
 .aMenu:hover{
     color: rgb(190, 40, 40);
+
     font-size: 20px;
 }
 fa-toggle-on:hover{
     color: white;}
+
